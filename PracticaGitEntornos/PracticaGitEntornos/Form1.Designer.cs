@@ -36,6 +36,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
             this.cbOrdinario = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -101,11 +102,22 @@
             this.cbOrdinario.Text = "Ordinario";
             this.cbOrdinario.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(170, 210);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(77, 17);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "agregando";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(560, 319);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.cbOrdinario);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.button1);
@@ -130,6 +142,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.TextBox txtTelegrama;
         private System.Windows.Forms.CheckBox cbOrdinario;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
